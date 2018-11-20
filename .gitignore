@@ -1,0 +1,14 @@
+.env
+build/
+logs
+*.log
+node_modules
+npm-debug.log
+.vscode
+.DS_Store
+.cache
+public/models/
+dist
+yarn-error.log
+yarn.lock
+.babelrc
