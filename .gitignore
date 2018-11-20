@@ -12,3 +12,4 @@ dist
 yarn-error.log
 yarn.lock
 .babelrc
+package-lock.json
