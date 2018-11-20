@@ -1,0 +1,6 @@
+[include]
+
+[ignore]
+
+# Including these files causes issues.
+.*/node_modules/*
