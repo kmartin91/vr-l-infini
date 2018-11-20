@@ -11,6 +11,17 @@
   "author": "VR l'infini Team",
   "license": "ISC",
   "staticPath": "public",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "dependencies": {
     "@gladeye/aframe-preloader-component": "^1.0.2",
     "aframe": "^0.8.2",
@@ -31,6 +42,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "husky": "^1.1.4",
+    "lint-staged": "^8.0.5",
     "parcel-plugin-static-files-copy": "^1.2.4"
   }
 }
