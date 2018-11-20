@@ -2,6 +2,17 @@
 
 A-Frame implementation with Parcel / React / Yarn & Husky
 
+**Want debuger ? Add debug on <DefaultScene />**
+**Want stats ? Add stat on <DefaultScene />**
+
+    <DefaultScene
+      stats
+      debug 
+    />
+
+
+
+
 ## Technologies
 
 - 🔥  `react` -  client side view components.
