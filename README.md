@@ -2,9 +2,9 @@
 
 A-Frame implementation with Parcel / React / Yarn & Husky
 
-**Want debuger ? Add debug on <DefaultScene />**
+**Want debuger ? Add debug on DefaultScene**
 
-**Want stats ? Add stat on <DefaultScene />**
+**Want stats ? Add stats on DefaultScene**
 
     <DefaultScene
       stats
