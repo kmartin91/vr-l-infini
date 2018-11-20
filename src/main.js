@@ -3,8 +3,8 @@ import DefaultScene from './shared/component/scenes/defaultScene';
 
 const Main = () => (
   <DefaultScene
-    modelLink="/models/obj/captur/captur-news2.obj"
-    modelLinkMtl="/models/obj/captur/captur-news2.mtl"
+    modelLink="/models/obj/model.obj"
+    modelLinkMtl="/models/obj/model.mtl"
     modelLinkType="obj"
     stats
     debug
